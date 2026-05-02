@@ -10,6 +10,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use("/user",userRouter);
 app.use("/cart",cartRouter);
 app.use("/product",ProductRouter);
-app.listen(3000,()=>{
+app.listen(3001,()=>{
     console.log("Server Started...");
 })
